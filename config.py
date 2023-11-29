@@ -3,7 +3,6 @@ import ROOT
 class Config:
   
   def __init__(self):  
-    self.input_file_mode = 2
     self.samples = ["tt_bb", "tt_bj", "tt_cc", "tt_cj", "tt_lf", "ttZ_Zbb","ttZ_Zcc","ttZ_Zother","ttH_hbb", "ttH_hcc", "ttbarW", "singlet","ttH_hww","ttH_htt"]
     #only used in mode 1
     self.prefit_dir = "shapes_prefit"

@@ -20,7 +20,6 @@ samples = config_file.samples
 prefit_dir = config_file.prefit_dir
 postfit_dir = config_file.postfit_dir
 plots_dir = config_file.output_plots_dir
-input_file_mode = config_file.input_file_mode
 
 infile = ROOT.TFile(file, "READ")
 categories = infile.GetListOfKeys()
